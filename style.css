@@ -1,0 +1,111 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main form .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main form .radio-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.todo {
+  min-width: 768px;
+  min-height: 50px;
+  background-color: rgba(0, 0, 255, 0.331);
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-left: 8px solid green;
+}
+
+.todo button i {
+  pointer-events: none;
+}
+
+.todo .list {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+}
+
+.todo .list .todo-title {
+  font-size: 2rem;
+}
+
+.todo .list .todo-description {
+  font-size: 1rem;
+}
+
+.low {
+  background-color: rgba(0, 34, 128, 0.261);
+}
+
+.medium {
+  background-color: rgba(255, 255, 0, 0.28);
+}
+
+.high {
+  background-color: rgba(255, 0, 0, 0.22);
+}
+
+.fall {
+  -webkit-transform: translateY(10rem) rotateZ(20deg);
+          transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style.css.map */

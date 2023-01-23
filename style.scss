@@ -1,0 +1,69 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .input{
+            display: flex;
+            flex-direction: column;
+        }
+        .radio-buttons{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.todo{
+    min-width: 768px;
+    min-height: 50px;
+    background-color: rgba(0, 0, 255, 0.331);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-left: 8px solid green;        button{
+            i{
+                pointer-events: none;
+            }
+        }
+    .list{
+        flex: 1;
+        list-style: none;
+
+        .todo-title{
+            font-size: 2rem;
+        }
+        .todo-description{
+            font-size: 1rem;
+        }
+    }
+}
+
+.low{
+    background-color: rgba(0, 34, 128, 0.261);
+}
+.medium{
+    background-color: rgba(255, 255, 0, 0.28);
+}
+.high{
+    background-color: rgba(255, 0, 0, 0.22);
+}
+
+.fall {
+    transform: translateY(10rem) rotateZ(20deg);
+    opacity: 0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
